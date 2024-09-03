@@ -9,12 +9,15 @@ Este repositório contém a resolução e descrição do código em Python
 Dado o trecho de código abaixo:
 
 ```python
-int INDICE = 13, SOMA = 0, K = 0;
-Enquanto K < INDICE faça {
-    K = K + 1;
-    SOMA = SOMA + K;
-}
-Imprimir(SOMA);
+INDICE = 13
+SOMA = 0
+K = 0
+
+while K < INDICE:
+    K = K + 1
+    SOMA = SOMA + K
+
+print(SOMA)
 ```
 ### Resultado: `91` 
 
