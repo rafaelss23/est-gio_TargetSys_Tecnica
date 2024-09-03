@@ -26,7 +26,7 @@ Imprimir(SOMA);
 Dado um número, o programa deve calcular a sequência de Fibonacci e retornar uma mensagem indicando se o número informado pertence ou não à sequência.
 
 ```python
-def is_fibonacci(n):
+def fibonacci(n):
     if n < 0:
         return False
     
@@ -35,7 +35,15 @@ def is_fibonacci(n):
     while a <= n:
         if a == n:
             return True
-        a, b =
+        a, b = b, a + b
+        
+    return False
+
+numero = 21
+if fibonacci(numero):
+    print(f"O número {numero} pertence à sequência de Fibonacci.")
+else:
+    print(f"O número {numero} não pertence à sequência de Fibonacci.")
 ```
 ### Resultado: `O número 21 pertence à sequência de Fibonacci.` 
 
