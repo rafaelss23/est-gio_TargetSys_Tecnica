@@ -64,10 +64,10 @@ O código em Python é:
 ```python
 import json
 
-with open('faturamento.json', 'r') as file:
-    faturamento = json.load(file)
+with open('dados.json', 'r') as file:
+    dados = json.load(file)
 
-valores = [dia["valor"] for dia in faturamento if dia["valor"] > 0]
+valores = [dia["valor"] for dia in dados if dia["valor"] > 0]
 
 menor_valor = min(valores)
 maior_valor = max(valores)
