@@ -1,4 +1,4 @@
-# Resolução do Desafios Técnicos em Python
+# Resolução do Desafio Técnico em Python
 
 Este repositório contém a resolução e descrição do código em Python
 
