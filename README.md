@@ -80,7 +80,7 @@ print(f"Maior valor de faturamento: {maior_valor:.2f}")
 print(f"Dias com faturamento acima da média: {dias_acima_da_media}")
 ```
 
-### Resultado:</br> `Menor valor de faturamento: 11191.47`</br> `Maior valor de faturamento: 46251.17`</br> `Dias com faturamento acima da média: 2`
+### Resultado:</br> `Menor valor de faturamento: 373.78`</br> `Maior valor de faturamento: 48924.24`</br> `Dias com faturamento acima da média: 10`
  
 
 ## 4. Percentual de faturamento por estado 
