@@ -125,11 +125,11 @@ def inverte_string(s):
         invertida = char + invertida
     return invertida
 
-string_exemplo = "Exemplo"
-print(inverte_string(string_exemplo))
+string_sistema = "Sistema"
+print(inverte_string(string_sistema))
 ```
 
-### Resultado: `olpmexE` 
+### Resultado: `ametsiS` 
 
 
 
