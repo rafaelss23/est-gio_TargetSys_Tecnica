@@ -125,7 +125,6 @@ def inverte_string(s):
         invertida = char + invertida
     return invertida
 
-# Exemplo de uso:
 string_exemplo = "Exemplo"
 print(inverte_string(string_exemplo))
 ```
